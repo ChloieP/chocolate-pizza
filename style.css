@@ -1,3 +1,64 @@
-header {
+body{
+  max-width: 940px;
+  min-width: 720px;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+}
+
+.row_1{
+  max-width: 940px;
+  max-height: 85px;
+  margin: 0px auto 0px auto;
+  text-align: justify;
+  border-bottom: 6px dotted #D3D3D3;  
+}
+
+#logo{
+  float: left;
+}
+
+#logo, #social_media, #share{
   display: inline;
+}
+
+h3{
+  font-family: fantasy;
+  font-size: 22px;
+  padding-left: 7%;
+  margin-bottom: 0%;
+  margin-right: auto;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 9px;
+  padding-left: 7%;
+  margin-top: 0%;
+  margin-right: auto;
+}
+
+#social_media{
+  position: relative;
+  margin-right: 10px;
+  margin-left: 75%;
+  margin-top: -10%;
+}
+
+#share{
+  position: relative;
+}
+
+.row_2{
+  text-align: left;
+  display: inline;
+}
+
+#print{
+  align: right;
+}
+
+.row_4 p{
+  text-indent: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
